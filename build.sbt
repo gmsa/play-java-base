@@ -18,3 +18,5 @@ routesGenerator := InjectedRoutesGenerator
 
 
 fork in run := true
+
+publishTo := Some(Resolver.file("file",  new File( "./dist" )) )
